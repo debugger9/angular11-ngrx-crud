@@ -1,0 +1,33 @@
+<ng-container>
+  <h1>User Detail Form</h1>
+  <div class="container">
+    <div class="row">
+      <form [formGroup]="newUserForm" #form=ngForm (ngSubmit)="createNewUser()">
+        <div class="input-group flex-nowrap mt-2 d-none">
+          <input type="text" class="form-control" placeholder="id" aria-label="id" aria-describedby="addon-wrapping"
+            formControlName="id">
+        </div>
+        <div class="input-group flex-nowrap mt-2">
+          <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="addon-wrapping"
+            formControlName="name">
+        </div>
+        <div class="input-group flex-nowrap mt-2">
+          <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+            aria-describedby="addon-wrapping" formControlName="username">
+        </div>
+        <div class="input-group flex-nowrap mt-2">
+          <input type="text" class="form-control" placeholder="Email" aria-label="Email"
+            aria-describedby="addon-wrapping" formControlName="email">
+        </div>
+        <div class="input-group flex-nowrap mt-2">
+          <input type="text" class="form-control" placeholder="Phone" aria-label="Phone" aria-describedby="addon-wrapping"
+            formControlName="phone">
+        </div>
+        <div class="pt-2 ml-auto">
+          <button type="submit" class="btn btn-success" >Save</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</ng-container>
+

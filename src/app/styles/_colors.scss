@@ -1,0 +1,55 @@
+// Descriptive Colors
+$white: #ffffff;
+$blue: #3f51b5;
+$red: #dc143c;
+$grey: #bbbbbb;
+$light-grey: #eeeeee;
+
+// Bootstrap
+$c-pink: #cd1c7e;
+$c-purple: #45108a;
+$c-green: #00b67a;
+$c-red: #fa1158;
+$c-warning: #feba2c;
+$c-light-purple: #d1ceee;
+$c-grey: #8785a9;
+
+$c-light-grey: #d1ceee;
+$c-input-purple: #aba6de;
+
+$c-dark-text: #181458;
+$c-dark-text-50: rgb(24, 20, 88, 0.5);
+$c-dark-text-60: rgb(24, 20, 88, 0.6);
+$c-dark-text-80: rgb(24, 20, 88, 0.8);
+$c-white-60: rgb(255, 255, 255, 0.6);
+$c-white-80: rgb(255, 255, 255, 0.8);
+$c-white: #fff;
+
+$c-light-2: rgba(24, 20, 88, 0.3);
+
+
+// Body
+$body-color-bg: #f5f5f9;
+$body-bg: #f5f5f9;
+$body-color: #181458;
+
+// Functional Colors
+$primary--color: $blue;
+$secondary--color: $white;
+
+$c-purp: #7c1dc9;
+$c-best-price: #5cca6c;
+$c-best: #157d60;
+
+// Bootstrap  Functional Colors
+$theme-colors: ('primary': $c-pink,
+  'secondary': $c-purple,
+  'success': $c-green,
+  'danger': $c-red,
+  'warning': $c-warning,
+  'info': $c-light-purple,
+  'light': $c-grey,
+  'dark': $c-dark-text,
+  'body': $body-bg,
+  'text-color': $body-color);
+$link-color: $c-dark-text !default;

@@ -1,0 +1,14 @@
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item" ><a class="{{ route.url === '/' ? 'active' : '' }}" routerLink="/">Home</a></li>
+    <li class="breadcrumb-item "><a class="{{ route.url === '/users' ? 'active' : '' }}" routerLink="/users">Users</a></li>
+    <div class="ml-auto d-flex">
+      <span class="pr-2">Language:</span>
+      <select class="form-control form-control-sm">
+        <option>English</option>
+        <option>Turkish</option>
+      </select>
+    </div>
+  </ol>
+
+</nav>
